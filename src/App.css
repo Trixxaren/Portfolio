@@ -1,0 +1,86 @@
+/* Global CSS styling */
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif; /* Anger Roboto som huvudteckensnitt */
+  -webkit-font-smoothing: antialiased; /* För bättre rendering i Webkit-baserade webbläsare (t.ex. Safari) */
+  -moz-osx-font-smoothing: antialiased; /* För bättre rendering i Firefox på macOS */
+  font-style: normal; /* Säkerställer att texten är i normal stil */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+:root {
+  --primary: #5e3bee; /* Primär färg, t.ex. för knappar eller länktexter */
+  --heading-color: #282938; /* Färg för rubriker */
+  --bg-shade: #f5fcff; /* Bakgrundsfärg, t.ex. för hela sidans bakgrund */
+  --github: #e62872; /* Färg för element relaterade till GitHub (kan vara knappar eller ikoner) */
+  --darkblue: #1c1e53; /* En mörkblå färg för specifika delar av designen */
+  --black: #000000; /* Svart färg */
+  --white: #ffffff; /* Vit färg */
+}
+
+/* Globala knapprörelser */
+.btn {
+  font-family: "Roboto", sans-serif; /* Lägg till sans-serif som fallback */
+  display: inline-block;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px; /* Endast detta behövs */
+  transition: background-color 0.5s; /* Enkel övergång för bakgrundsfärg */
+}
+
+/* Stilar för knappar med "btn-outline-primary" */
+.btn-outline-primary {
+  color: var(--primary);
+  background-color: var(--white);
+  border: 1px solid var(--primary);
+}
+
+.btn-outline-primary:hover {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+/* Stilar för primära knappar */
+.btn-primary {
+  color: var(--white);
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.btn-primary:hover {
+  color: var(--primary);
+  background-color: var(--white);
+}
+
+.btn-github {
+  color: var(--white);
+  background-color: var(--github);
+  border: var(--github);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.95);
+  gap: 16px;
+}
+
+.btn-github:hover {
+  color: var(--github);
+  background-color: var(--white);
+}
+
+/* Global Sections slutar här  */

@@ -13,10 +13,10 @@ const HeroSection = () => {
             <br /> Lorem ipsum dolor sit amet consectetur.
           </p>
         </div>
-        <button className="btn- btn-primary">Kontakta mig</button>
+        <button className="btn btn-primary">Kontakta mig</button>
       </div>
       <div className="hero--section--image">
-        <img src="./profilbild.png" alt="Hero Section" />
+        <img src="./profilbild.png" alt="Profilbild på mig" />
       </div>
     </section>
   );
