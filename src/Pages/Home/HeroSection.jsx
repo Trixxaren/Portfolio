@@ -16,11 +16,7 @@ const HeroSection = () => {
         <button className="btn btn-primary">Kontakta mig</button>
       </div>
       <div className="hero--section--image">
-        <img
-          className="profil-img"
-          src="./profilbild.png"
-          alt="Profilbild på mig"
-        />
+        <img src="./profilbild.png" alt="Profilbild på mig" />
       </div>
     </section>
   );

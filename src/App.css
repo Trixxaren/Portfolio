@@ -1,12 +1,12 @@
 /* Global CSS styling */
-
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif; /* Anger Roboto som huvudteckensnitt */
-  -webkit-font-smoothing: antialiased; /* För bättre rendering i Webkit-baserade webbläsare (t.ex. Safari) */
-  -moz-osx-font-smoothing: antialiased; /* För bättre rendering i Firefox på macOS */
-  font-style: normal; /* Säkerställer att texten är i normal stil */
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  font-style: normal;
 }
+
 h1,
 h2,
 h3,
@@ -18,18 +18,18 @@ p {
 }
 
 :root {
-  --primary: #5e3bee; /* Primär färg, t.ex. för knappar eller länktexter */
-  --heading-color: #282938; /* Färg för rubriker */
-  --bg-shade: #f5fcff; /* Bakgrundsfärg, t.ex. för hela sidans bakgrund */
-  --github: #e62872; /* Färg för element relaterade till GitHub (kan vara knappar eller ikoner) */
-  --darkblue: #1c1e53; /* En mörkblå färg för specifika delar av designen */
-  --black: #000000; /* Svart färg */
-  --white: #ffffff; /* Vit färg */
+  --primary: #5e3bee;
+  --heading-color: #282938;
+  --bg-shade: #f5fcff;
+  --github: #e62872;
+  --darkblue: #1c1e53;
+  --black: #000000;
+  --white: #ffffff;
 }
 
 /* Globala knapprörelser */
 .btn {
-  font-family: "Roboto", sans-serif; /* Lägg till sans-serif som fallback */
+  font-family: "Roboto", sans-serif;
   display: inline-block;
   padding: 14px 32px;
   font-size: 16px;
@@ -38,11 +38,11 @@ p {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  border-radius: 4px; /* Endast detta behövs */
-  transition: background-color 0.5s; /* Enkel övergång för bakgrundsfärg */
+  border-radius: 4px;
+  transition: background-color 0.5s;
 }
 
-/* Stilar för knappar med "btn-outline-primary" */
+/* Stilar för knappar */
 .btn-outline-primary {
   color: var(--primary);
   background-color: var(--white);
@@ -54,7 +54,6 @@ p {
   background-color: var(--primary);
 }
 
-/* Stilar för primära knappar */
 .btn-primary {
   color: var(--white);
   background-color: var(--primary);
@@ -83,9 +82,7 @@ p {
   background-color: var(--white);
 }
 
-/* Global Sections slutar här  */
-/* Main Headings  */
-
+/* Main Headings */
 h1 {
   font-size: 56px;
   font-weight: 700;
@@ -104,8 +101,7 @@ h3 {
   line-height: 34px;
 }
 
-/* Paragraf text large medium small  */
-/* body 1 */
+/* Paragraf text large medium small */
 .text-lg {
   color: var(--darkblue);
   font-size: 18px;
@@ -114,7 +110,6 @@ h3 {
   line-height: 27px;
 }
 
-/* body 2 */
 .text-md {
   color: var(--darkblue);
   font-size: 16px;
@@ -123,7 +118,6 @@ h3 {
   line-height: 24px;
 }
 
-/* body 3  */
 .text-sm {
   color: var(--black);
   font-size: 14px;
@@ -133,8 +127,6 @@ h3 {
 }
 
 /* Titles sektion */
-/* mina skills  */
-
 .section--title {
   color: var(--heading-color);
   font-size: 21px;
@@ -146,8 +138,6 @@ h3 {
   align-items: flex-start;
 }
 
-/* portfolio testimonials & kontakta mig */
-
 .sub--title {
   color: var(--heading-color);
   font-size: 16px;
@@ -155,10 +145,7 @@ h3 {
   line-height: 24px;
 }
 
-/* Section title ends  */
-
-/* hero section style  */
-
+/* Hero section style */
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -187,6 +174,122 @@ h3 {
   margin-top: 21.333px;
 }
 
-.profil-img {
+.hero--section--title {
+  color: var(--heading-color);
+  font-size: 74.667px;
+  font-weight: 700;
+  line-height: 90px;
+  align-self: stretch;
+}
+
+.hero--section--title--color {
+  color: var(--primary);
+}
+
+.hero--section--description {
+  color: var(--darkblue);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.hero--section--image {
+  display: flex;
+}
+
+.hero--section--image > img {
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
 }
+
+/* Responsivitet för mindre skärmar */
+@media (max-width: 1024px) {
+  .hero--section {
+    grid-template-columns: 1fr; /* Gör om till en kolumn på mindre skärmar */
+    padding: 60px 40px; /* Justera padding */
+  }
+
+  .hero--section--title {
+    font-size: 56px;
+    line-height: 70px;
+  }
+
+  .hero--section--description {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .hero--section--content-box {
+    gap: 24px;
+  }
+
+  .hero--section--img > img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero--section {
+    grid-template-columns: 1fr;
+    padding: 40px 20px; /* Minska padding på ännu mindre skärmar */
+  }
+
+  .hero--section--title {
+    font-size: 40px; /* Minska storleken på rubriken */
+    line-height: 50px;
+  }
+
+  .hero--section--description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .hero--section--content-box {
+    gap: 16px;
+  }
+
+  .hero--section--content {
+    gap: 16px;
+  }
+
+  .hero--section--img > img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .hero--section--title,
+  .hero--section--description {
+    text-align: center; /* Centrerar texten för mobila enheter */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero--section {
+    padding: 20px 10px; /* Justera padding för små skärmar */
+  }
+
+  .hero--section--title {
+    font-size: 32px; /* Minska rubrikens storlek ännu mer */
+    line-height: 40px;
+  }
+
+  .hero--section--description {
+    font-size: 14px; /* Minska beskrivningens storlek */
+    line-height: 20px;
+  }
+
+  .hero--section--img > img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .hero--section--content {
+    text-align: center; /* Centrera innehållet för små skärmar */
+  }
+}
+
+/* Hero--section styling slutar här  */
