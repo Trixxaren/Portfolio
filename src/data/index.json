@@ -2,25 +2,25 @@
   "skills": [
     {
       "id": "1",
-      "src": "./code.png",
+      "src": "150x110.jpeg",
       "title": "Front-End",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
     },
     {
       "id": "2",
-      "src": "./code.png",
+      "src": "150x110.jpeg",
       "title": "Back-End",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
     },
     {
       "id": "3",
-      "src": "./code.png",
+      "src": "150x110.jpeg",
       "title": "UI & UX Design",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
     },
     {
       "id": "4",
-      "src": "./code.png",
+      "src": "150x110.jpeg",
       "title": "WebFlow Development",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
     }
