@@ -7,7 +7,12 @@ const ContactMe = () => {
           Kontakta gärna mig här eller direkt via LinkedIn.
         </p>
       </div>
-      <form className="contact--form--container">
+      <form
+        className="contact--form--container"
+        data-netlify="true" // Detta aktiverar Netlifys formulärhantering
+        name="contact" // Detta ger formuläret ett namn för att identifiera det i Netlifys gränssnitt
+        method="POST" // HTTP-metod för att skicka formuläret
+      >
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">Förnamn</span>
@@ -50,30 +55,20 @@ const ContactMe = () => {
             />
           </label>
         </div>
-        {/* <label htmlFor="choose-topic" className="contact--label"> addera denna vid senare tillfälle
-          <span className="text-md">Choose a topic</span>
-          <select id="choose-topic" className="contact--input text-md">
-            <option>Select One...</option>
-            <option>Item Praktikplats</option>
-            <option>Item Bygg mig en hemsida</option>
-            <option>Item Något mera?</option>
-          </select>
-        </label> */}
         <label htmlFor="message" className="contact--label">
           <span className="text-md">Meddelande</span>
           <textarea
             className="contact--input text-md"
             id="message"
+            name="message" // Viktigt att ge varje fält ett namn
             rows="8"
             placeholder="Skriv ditt meddelande..."
           />
         </label>
-        {/* <label htmlFor="checkbox" className="checkbox--label"> Lägg till denna vid senare tillfälle iaf den behövs
-          <input type="checkbox" required name="checkbox" id="checkbox" />
-          <span className="text-sm">I accept the terms</span>
-        </label> */}
         <div>
-          <button className="btn btn-primary contact--form--btn">Skicka</button>
+          <button className="btn btn-primary contact--form--btn" type="submit">
+            Skicka
+          </button>
         </div>
       </form>
     </section>
