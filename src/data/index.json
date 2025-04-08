@@ -36,14 +36,14 @@
     },
     {
       "id": "2",
-      "src": "logo1.png",
+      "src": "quizzmaster.png",
       "title": "projekt2",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
       "link": "https://www.linkedin.com/in/robin-vikstr%C3%B6m-9959b6169/"
     },
     {
       "id": "3",
-      "src": "logo1.png",
+      "src": "quizzmaster.png",
       "title": "projekt3",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
       "link": "View in Gthub"

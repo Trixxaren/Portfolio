@@ -7,7 +7,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="*" element={<div>404 Not Found</div>} />
+        <Route
+          path="*"
+          element={<img src="404error.png" alt="404 not found" />}
+        />
       </Routes>
     </Router>
   );
