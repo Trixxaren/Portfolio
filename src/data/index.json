@@ -4,25 +4,25 @@
       "id": "1",
       "src": "150x110.jpeg",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+      "description": "Html & ikon, Css & ikon, React & ikon, Tailwind & ikon fler?"
     },
     {
       "id": "2",
       "src": "150x110.jpeg",
       "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+      "description": "Ta bort denna?"
     },
     {
       "id": "3",
       "src": "150x110.jpeg",
       "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+      "description": "Figma & ikon, Miro & ikon"
     },
     {
       "id": "4",
       "src": "150x110.jpeg",
       "title": "WebFlow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+      "description": "Kolla vad webflow dev betyder, annars ta in tidigare erfarenheter, sälj?"
     }
   ],
 
@@ -30,9 +30,9 @@
     {
       "id": "1",
       "src": "logo1.png",
-      "title": "projekt1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
-      "link": "View in Gthub"
+      "title": "Quizmaster",
+      "description": "Ett quiz med olika kategorier gjort med JS & Html som Single Page Application",
+      "link": "https://quizmastertrixx.netlify.app/"
     },
     {
       "id": "2",

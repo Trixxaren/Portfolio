@@ -90,20 +90,6 @@ const Navbar = () => {
               Om mig
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="Testimonials"
-              className="navbar--content"
-            >
-              Rekommendation / Omdöme
-            </Link>
-          </li>
         </ul>
       </div>
       <Link
