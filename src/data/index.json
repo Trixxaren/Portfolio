@@ -29,7 +29,7 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "logo1.png",
+      "src": "quizzmaster.png",
       "title": "Quizmaster",
       "description": "Ett quiz med olika kategorier gjort med JS & Html som Single Page Application",
       "link": "https://quizmastertrixx.netlify.app/"
