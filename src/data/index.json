@@ -24,5 +24,29 @@
       "title": "WebFlow Development",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
     }
+  ],
+
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "logo1.png",
+      "title": "projekt1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
+      "link": "View in Gthub"
+    },
+    {
+      "id": "2",
+      "src": "logo1.png",
+      "title": "projekt2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
+      "link": "View in Gthub"
+    },
+    {
+      "id": "3",
+      "src": "logo1.png",
+      "title": "projekt3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
+      "link": "View in Gthub"
+    }
   ]
 }
