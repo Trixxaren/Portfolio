@@ -5,6 +5,7 @@ import MySkills from "../MySkills";
 import AboutMe from "../AboutMe";
 import MyPortfolio from "../MyPortfolio";
 import ContactMe from "../ContactMe";
+import Footer from "../Footer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <AboutMe />
       <MyPortfolio />
       <ContactMe />
+      <Footer />
     </>
   );
 };
