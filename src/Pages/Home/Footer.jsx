@@ -7,53 +7,18 @@ const Footer = () => {
         <div>
           <img src="./favicon-32x32.png" alt="Logoipsum" />
         </div>
-        <div className="footer--items">
+        <div className="footer--madeby">
           <ul>
             <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="heroSection"
-                className="text-md"
-              >
-                Hem
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="MyPortfolio"
-                className="text-md"
-              >
-                Portfolio
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="AboutMe"
-                className="text-md"
-              >
-                Om mig
-              </Link>
+              <p>
+                <strong>Kontakt uppgifter</strong>
+              </p>
+              Robin.m.e.vikstrom@gmail.com{" "}
             </li>
           </ul>
         </div>
         <div className="footer--social--icon">
           <ul>
-            <li></li>
-            <li></li>
             <li>
               <a
                 href="https://www.linkedin.com/"
@@ -101,6 +66,12 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <div className="divider"></div>
+
+      <p>
+        Portfolio made my <strong>Robin Vikström</strong> with{" "}
+        <strong>React.js</strong>{" "}
+      </p>
     </footer>
   );
 };

@@ -8,11 +8,11 @@ const HeroSection = () => {
             Developer
           </h1>
           <p className="hero--section--description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            <br /> Lorem ipsum dolor sit amet consectetur.
+            Robin Vikström
+            <br /> Stockholm Sweden
           </p>
         </div>
-        <button className="btn btn-primary">Kontakta mig</button>
+        {/* <button className="btn btn-primary">Kontakta mig</button> */}
       </div>
       <div className="hero--section--image">
         <img src="./profilbild.png" alt="Profilbild på mig" />
