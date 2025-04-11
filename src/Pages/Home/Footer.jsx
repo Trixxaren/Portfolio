@@ -11,7 +11,7 @@ const Footer = () => {
           <ul>
             <li>
               <p>
-                <strong>Kontakt uppgifter</strong>
+                <strong>Kontaktuppgifter</strong>
               </p>
               Robin.m.e.vikstrom@gmail.com{" "}
             </li>
