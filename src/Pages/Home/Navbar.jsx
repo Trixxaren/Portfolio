@@ -73,7 +73,7 @@ const Navbar = () => {
               to="MyPortfolio"
               className="navbar--content"
             >
-              Portfolio
+              Projekt
             </Link>
           </li>
           <li>

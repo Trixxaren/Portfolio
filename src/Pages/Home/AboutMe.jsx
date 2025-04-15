@@ -14,7 +14,7 @@ const AboutMe = () => {
             jag mig till front-end utvecklare på Jensen Yrkeshögskola, där jag
             fördjupar mig i HTML, CSS, JavaScript, React, Tailwind, Figma och
             Miro mm. Mitt mål är att skapa användarvänliga och smarta digitala
-            lösningar – och jag ser fram emot att kombinera mina nya tekniska
+            lösningar och jag ser fram emot att kombinera mina nya tekniska
             färdigheter med mina tidigare erfarenhet inom marknadsföring,
             kundrelationer och affärsutveckling.
           </p>
@@ -23,16 +23,19 @@ const AboutMe = () => {
             Viaplay Group Radio, där jag ansvarade för strategiska samarbeten
             med några av Sveriges största företag. Jag har en stark känsla för
             att bygga relationer, skapa värde och driva projekt från idé till
-            resultat – något jag nu tar med mig in i techvärlden.
+            resultat, något jag nu tar med mig in i techvärlden.
           </p>
           <p className="hero--section-description">
             Jag är en målinriktad doer som trivs i team, men också tar stort
             eget ansvar. Jag drivs av utveckling, både på det personliga och
-            tekniska planet – och just nu söker jag en praktikplats där jag får
+            tekniska planet och just nu söker jag en praktikplats där jag får
             växa som utvecklare, bidra med min bakgrund och fortsätta lära
             tillsammans med andra engagerade människor.
           </p>
-          <a href="/CV-Robin-Vikstrom.pdf" download>
+          <a
+            href="https://drive.google.com/uc?export=download&id=1pMs9kcc8orvXRg4KrGCZy69r9EyvTRWh"
+            download
+          >
             <button className="btn btn-black">Ladda ner CV</button>
           </a>
         </div>

@@ -1,52 +1,38 @@
-import data from "../../data/index.json";
+import React, { useEffect, useState } from "react";
+import portfolioData from "../../data/index.json"; // Importera JSON-filen från rätt plats
 
 const MyPortfolio = () => {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    // Här kan vi sätta data till state från den importerade JSON-filen
+    setProjects(portfolioData.portfolio);
+  }, []);
+
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container--box">
         <div className="portfolio--container">
-          <p className="sub--title">Recent projects</p>
-          <h2 className="section--heading">My Portfolio</h2>
-        </div>
-        <div>
-          <button className="btn btn-black">GitHub</button>
+          <h1 className="section--heading">Mina projekt</h1>
         </div>
       </div>
       <div className="portfolio--section--container">
-        {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolio--section--card">
+        {projects.map((project) => (
+          <a
+            key={project.id}
+            href={project.link}
+            className="portfolio--section--card"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="portfolio--section--img">
-              <img src={item.src} alt="Placeholder" />
+              <img src={`./${project.src}`} alt={project.title} />
             </div>
             <div className="portfolio--section--card--content">
-              <div>
-                <h3 className="portfolio--section--title">{item.title}</h3>
-                <p className="text-md">{item.description}</p>
-              </div>
-              <p
-                className="text-sm portfolio--link"
-                onClick={() => window.open(item.link, "_blank")}
-              >
-                {item.link}
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 20 19"
-                  fill="none"
-                >
-                  <path
-                    d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                    stroke="currentColor"
-                    strokeWidth="2.66667"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </p>
+              <h3 className="portfolio--section--title">{project.title}</h3>
+              <p>{project.description}</p>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </section>

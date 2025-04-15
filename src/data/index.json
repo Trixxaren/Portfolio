@@ -1,31 +1,4 @@
 {
-  "skills": [
-    {
-      "id": "1",
-      "src": "150x110.jpeg",
-      "title": "Front-End",
-      "description": "Html & ikon, Css & ikon, React & ikon, Tailwind & ikon fler?"
-    },
-    {
-      "id": "2",
-      "src": "150x110.jpeg",
-      "title": "Back-End",
-      "description": "Ta bort denna?"
-    },
-    {
-      "id": "3",
-      "src": "150x110.jpeg",
-      "title": "UI & UX Design",
-      "description": "Figma & ikon, Miro & ikon"
-    },
-    {
-      "id": "4",
-      "src": "150x110.jpeg",
-      "title": "WebFlow Development",
-      "description": "Kolla vad webflow dev betyder, annars ta in tidigare erfarenheter, sälj?"
-    }
-  ],
-
   "portfolio": [
     {
       "id": "1",
@@ -44,22 +17,8 @@
     {
       "id": "3",
       "src": "quizzmaster.png",
-      "title": "projekt3",
+      "title": "GitHub",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique, Lorem",
-      "link": "View in Gthub"
-    },
-    {
-      "id": "3",
-      "src": "quizzmaster.png",
-      "title": "projekt3",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
-      "link": "View in Gthub"
-    },
-    {
-      "id": "3",
-      "src": "quizzmaster.png",
-      "title": "projekt3",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
       "link": "View in Gthub"
     }
   ]

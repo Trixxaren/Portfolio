@@ -408,86 +408,81 @@ h3 {
 
 /* Min portfolio CSS börjar här  */
 
+/* För hela sektionen */
 .portfolio--section {
   display: flex;
-  padding: 112px 85px;
   flex-direction: column;
-  align-items: flex-start;
   gap: 80px;
+  padding: 112px 85px;
 }
 
-.portfolio--container--box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.portfolio--container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 21.3px;
-}
-
+/* Grid-layout för korten */
 .portfolio--section--container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: stretch;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 42.6px;
-}
-
-.portfolio--section--img {
-  display: flex;
-  border-radius: 8px;
   width: 100%;
-  height: 45%;
-}
-.portfolio--section--img > img {
-  width: 98%;
-  padding-left: 5px;
-  padding-top: 5px;
 }
 
+/* Själva kortet */
 .portfolio--section--card {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  flex: 1 0 0;
-  background: #ffffff;
-  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
   border-radius: 12px;
-}
-
-.portfolio--section--card--content {
-  display: flex;
-  padding: 32px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  align-self: stretch;
-}
-
-.portfolio--section--title {
-  color: var(--heading-color);
-}
-
-.portfolio--link {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   text-decoration: none;
-  display: flex;
-  gap: 16px;
-  border-bottom: 1.33px solid var(--primary);
-  padding-bottom: 10.6px;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.portfolio--section--card:hover path {
-  stroke: #006b6a;
+  color: inherit;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
 }
 
 .portfolio--section--card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.489);
   border-bottom: 4px solid var(--primary);
+  border-right: 3px solid var(--primary);
+}
+
+/* Bilden */
+.portfolio--section--img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolio--section--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Innehållet */
+.portfolio--section--card--content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Titel */
+.portfolio--section--title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--heading-color);
+}
+
+/* "Länk"-text längst ner i kortet */
+.portfolio--link {
+  font-weight: 600;
+  color: var(--primary);
+  display: inline-block;
+  transition: color 0.2s ease;
+}
+
+.portfolio--section--card:hover .portfolio--link {
+  color: var(--primary-dark);
 }
 
 /* portfolio CSS slutar här  */
