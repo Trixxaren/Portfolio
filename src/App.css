@@ -18,9 +18,9 @@ p {
 }
 
 :root {
-  --primary: #697565;
-  --heading-color: #697565;
-  --bg-shade: #3c3d37;
+  --primary: #36454f;
+  --heading-color: #36454f;
+  --bg-shade: #708090;
   --github: #000000;
   --darkblue: #000000;
   --black: #000000;
@@ -392,14 +392,14 @@ h3 {
 
 .about--section {
   display: grid;
-  padding: 133.3px 85.3px;
+  padding: 100px;
   align-items: center;
-  gap: 50px;
+
   grid-template-columns: repeat(2, 1fr);
 }
 
 .about--section--img > img {
-  width: 90%;
+  width: 70%;
   height: 100%;
   border-radius: 7px;
 }
@@ -413,7 +413,7 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 80px;
-  padding: 112px 85px;
+  padding: 70px 85px;
 }
 
 /* Grid-layout för korten */
@@ -441,13 +441,11 @@ h3 {
 .portfolio--section--card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.489);
-  border-bottom: 4px solid var(--primary);
-  border-right: 3px solid var(--primary);
 }
 
 /* Bilden */
 .portfolio--section--img {
-  width: 92%;
+  width: 100%;
   height: 200px;
   overflow: hidden;
   border-bottom: 1px solid #eee;
@@ -456,7 +454,6 @@ h3 {
 .portfolio--section--img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 /* Innehållet */
@@ -533,38 +530,6 @@ h3 {
   border-radius: 8px;
   border: 1.333px solid var(--primary);
   background: var(--white);
-}
-
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  /* Fallback då vissa browsers inte tar emot */
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 21.2052C16.2374 21.4981 15.7626 21.4981 15.4697 21.2052L7.82318 13.5587C7.53029 13.2658 7.53029 12.791 7.82318 12.4981L8.17674 12.1445C8.46963 11.8516 8.9445 11.8516 9.2374 12.1445L16 18.9071L22.7626 12.1445C23.0555 11.8516 23.5303 11.8516 23.8232 12.1445L24.1768 12.4981C24.4697 12.791 24.4697 13.2658 24.1768 13.5587L16.5303 21.2052Z" fill="%23033333"/></svg>')
-    white no-repeat 98.5% !important;
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 21.2052C16.2374 21.4981 15.7626 21.4981 15.4697 21.2052L7.82318 13.5587C7.53029 13.2658 7.53029 12.791 7.82318 12.4981L8.17674 12.1445C8.46963 11.8516 8.9445 11.8516 9.2374 12.1445L16 18.9071L22.7626 12.1445C23.0555 11.8516 23.5303 11.8516 23.8232 12.1445L24.1768 12.4981C24.4697 12.791 24.4697 13.2658 24.1768 13.5587L16.5303 21.2052Z" fill="%23033333"/></svg>')
-    white no-repeat calc(100% - 20px);
-}
-/*For IE*/
-select::-ms-expand {
-  display: none;
-}
-
-.checkbox--label {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10.6px;
-  flex: 1 0 0;
-  justify-content: flex-start;
-}
-
-.input[type="checkbox"] {
-  width: 21px;
-  height: 21px;
-  border: 0.15em solid var(--heading-color);
-  border-radius: 0.15em;
-  transform: translateY(-0.075em);
 }
 
 /* Contact CSS klar här  */
