@@ -2,32 +2,39 @@ const AboutMe = () => {
   return (
     <section id="AboutMe" className="about--section">
       <div className="about--section--img">
-        <img src="./profilbild.png" alt="About Me"></img>
+        <img src="./kostym.png" alt="About Me"></img>
       </div>
+
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <p className="section--title">Robin Vikström</p>
           <h1 className="skills--section--heading">Om mig</h1>
           <p className="hero--section-description">
-            Jag utbildar mig just nu till front-end utvecklare på Jensens YH.
-            Datorer och spel har alltid varit ett stort intresse för mig, och
-            jag ser fram emot att nu arbeta i en yrkesroll där jag kan kombinera
-            passion och teknisk kompetens. Jag är övertygad om att mitt driv,
-            engagemang och min problemlösningsförmåga kommer att vara till stor
-            nytta i min framtida karriär. Jag har kompetens inom HTML, CSS,
-            JavaScript, React, Miro och Figma, och utvecklar kontinuerligt mina
-            kunskaper inom moderna verktyg och tekniker.
+            Jag är en lösningsorienterad och nyfiken person med ett stort
+            intresse för teknik, människor och problemlösning. Just nu utbildar
+            jag mig till front-end utvecklare på Jensen Yrkeshögskola, där jag
+            fördjupar mig i HTML, CSS, JavaScript, React, Tailwind, Figma och
+            Miro mm. Mitt mål är att skapa användarvänliga och smarta digitala
+            lösningar – och jag ser fram emot att kombinera mina nya tekniska
+            färdigheter med mina tidigare erfarenhet inom marknadsföring,
+            kundrelationer och affärsutveckling.
           </p>
           <p className="hero--section-description">
-            Tidigare arbetade jag som storkundsansvarig på Viaplay Group Radio,
-            där jag samarbetade med några av Sveriges största företag för att
-            identifiera deras utmaningar och använda radioannonsering för att
-            stärka deras varumärkeskännedom och ROI. Jag var involverad i både
-            radioreklam, sponsorskap och event med våra stationer RIX FM, STAR
-            FM, Bandit Rock och Lugna Favoriter. Under min tid där lyckades vi
-            uppnå konkreta resultat, som ökade varumärkeskännedom och
-            kundlojalitet för våra största kunder.
+            Innan jag valde att byta bana jobbade jag som Key Account Manager på
+            Viaplay Group Radio, där jag ansvarade för strategiska samarbeten
+            med några av Sveriges största företag. Jag har en stark känsla för
+            att bygga relationer, skapa värde och driva projekt från idé till
+            resultat – något jag nu tar med mig in i techvärlden.
           </p>
+          <p className="hero--section-description">
+            Jag är en målinriktad doer som trivs i team, men också tar stort
+            eget ansvar. Jag drivs av utveckling, både på det personliga och
+            tekniska planet – och just nu söker jag en praktikplats där jag får
+            växa som utvecklare, bidra med min bakgrund och fortsätta lära
+            tillsammans med andra engagerade människor.
+          </p>
+          <a href="/CV-Robin-Vikstrom.pdf" download>
+            <button className="btn btn-black">Ladda ner CV</button>
+          </a>
         </div>
       </div>
     </section>

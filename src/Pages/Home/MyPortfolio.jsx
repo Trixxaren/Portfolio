@@ -9,7 +9,7 @@ const MyPortfolio = () => {
           <h2 className="section--heading">My Portfolio</h2>
         </div>
         <div>
-          <button className="btn btn-github">GitHub</button>
+          <button className="btn btn-black">GitHub</button>
         </div>
       </div>
       <div className="portfolio--section--container">
