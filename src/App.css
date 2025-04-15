@@ -18,11 +18,11 @@ p {
 }
 
 :root {
-  --primary: #5e3bee;
-  --heading-color: #282938;
-  --bg-shade: #f5fcff;
+  --primary: #697565;
+  --heading-color: #697565;
+  --bg-shade: #3c3d37;
   --github: #000000;
-  --darkblue: #1c1e53;
+  --darkblue: #000000;
   --black: #000000;
   --white: #ffffff;
 }
@@ -394,12 +394,12 @@ h3 {
   display: grid;
   padding: 133.3px 85.3px;
   align-items: center;
-  gap: 114.6px;
+  gap: 50px;
   grid-template-columns: repeat(2, 1fr);
 }
 
 .about--section--img > img {
-  width: 100%;
+  width: 90%;
   height: 100%;
   border-radius: 7px;
 }
@@ -435,6 +435,7 @@ h3 {
   color: inherit;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
+  border: 0.5px solid rgba(0, 0, 0, 0.105);
 }
 
 .portfolio--section--card:hover {
@@ -446,7 +447,7 @@ h3 {
 
 /* Bilden */
 .portfolio--section--img {
-  width: 100%;
+  width: 92%;
   height: 200px;
   overflow: hidden;
   border-bottom: 1px solid #eee;
