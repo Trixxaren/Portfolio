@@ -11,10 +11,14 @@ const ContactMe = () => {
       </div>
       <form
         className="contact--form--container"
-        data-netlify="true" // Aktiverar Netlifys formulärhantering
-        name="contact" // Viktigt att ge formuläret ett namn
-        method="POST" // HTTP-metod för att skicka formuläret
+        name="contact" // Formulärets namn
+        method="POST" // HTTP-metod
+        data-netlify="true" // Aktiverar Netlify form
+        action="/thank-you" // Skickas hit efter submit
       >
+        {/* Netlify kräver detta dolda inputfält */}
+        <input type="hidden" name="form-name" value="contact" />
+
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">Förnamn</span>
@@ -62,9 +66,10 @@ const ContactMe = () => {
           <textarea
             className="contact--input text-md"
             id="message"
-            name="message" // Viktigt att ge varje fält ett namn
+            name="message"
             rows="8"
             placeholder="Skriv ditt meddelande..."
+            required
           />
         </label>
         <div>
