@@ -4,14 +4,14 @@
       "id": "1",
       "src": "quizzpc.png",
       "title": "Quizmaster",
-      "description": "Ett quiz med olika kategorier gjort med JS & Html som en Single Page Application",
+      "description": "Ett quiz med olika kategorier gjort med JS & Html som en Single Page Application.",
       "link": "https://quizmastertrixx.netlify.app/"
     },
     {
       "id": "2",
       "src": "alla2.png",
       "title": "Hittarecept",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
+      "description": "En receptbok gjord med React JS, Tailwind, React Router, MealDB API mm.",
       "link": "https://hittarecept.netlify.app/"
     },
     {

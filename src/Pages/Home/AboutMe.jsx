@@ -33,7 +33,7 @@ const AboutMe = () => {
             tillsammans med andra engagerade människor.
           </p>
           <a
-            href="https://drive.google.com/uc?export=download&id=1pMs9kcc8orvXRg4KrGCZy69r9EyvTRWh"
+            href="https://drive.google.com/file/d/1AsfKNEUvlGgaWHfHZX7NCmM_RdqsjpV6/view?usp=drive_link"
             download
           >
             <button className="btn btn-black">Ladda ner CV</button>
