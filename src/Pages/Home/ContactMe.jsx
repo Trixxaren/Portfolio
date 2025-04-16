@@ -1,3 +1,5 @@
+import React from "react";
+
 const ContactMe = () => {
   return (
     <section className="contact--section" id="Contact">
@@ -9,19 +11,10 @@ const ContactMe = () => {
       </div>
       <form
         className="contact--form--container"
-        name="contact"
-        method="POST"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
+        data-netlify="true" // Aktiverar Netlifys formulärhantering
+        name="contact" // Viktigt att ge formuläret ett namn
+        method="POST" // HTTP-metod för att skicka formuläret
       >
-        {/* Netlify hidden fields */}
-        <input type="hidden" name="form-name" value="contact" />
-        <p hidden>
-          <label>
-            Don’t fill this out: <input name="bot-field" />
-          </label>
-        </p>
-
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">Förnamn</span>
@@ -54,9 +47,9 @@ const ContactMe = () => {
             />
           </label>
           <label htmlFor="phone-number" className="contact--label">
-            <span className="text-md">Telefon nummer</span>
+            <span className="text-md">Telefonnummer</span>
             <input
-              type="tel"
+              type="number"
               className="contact--input text-md"
               name="phone-number"
               id="phone-number"
@@ -69,10 +62,9 @@ const ContactMe = () => {
           <textarea
             className="contact--input text-md"
             id="message"
-            name="message"
+            name="message" // Viktigt att ge varje fält ett namn
             rows="8"
             placeholder="Skriv ditt meddelande..."
-            required
           />
         </label>
         <div>
