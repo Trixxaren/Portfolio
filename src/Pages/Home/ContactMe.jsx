@@ -9,10 +9,19 @@ const ContactMe = () => {
       </div>
       <form
         className="contact--form--container"
-        data-netlify="true" // Detta aktiverar Netlifys formulärhantering
-        name="contact" // Detta ger formuläret ett namn för att identifiera det i Netlifys gränssnitt
-        method="POST" // HTTP-metod för att skicka formuläret
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
       >
+        {/* Netlify hidden fields */}
+        <input type="hidden" name="form-name" value="contact" />
+        <p hidden>
+          <label>
+            Don’t fill this out: <input name="bot-field" />
+          </label>
+        </p>
+
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">Förnamn</span>
@@ -47,7 +56,7 @@ const ContactMe = () => {
           <label htmlFor="phone-number" className="contact--label">
             <span className="text-md">Telefon nummer</span>
             <input
-              type="number"
+              type="tel"
               className="contact--input text-md"
               name="phone-number"
               id="phone-number"
@@ -60,9 +69,10 @@ const ContactMe = () => {
           <textarea
             className="contact--input text-md"
             id="message"
-            name="message" // Viktigt att ge varje fält ett namn
+            name="message"
             rows="8"
             placeholder="Skriv ditt meddelande..."
+            required
           />
         </label>
         <div>

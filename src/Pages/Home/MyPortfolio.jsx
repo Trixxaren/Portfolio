@@ -30,7 +30,7 @@ const MyPortfolio = () => {
             </div>
             <div className="portfolio--section--card--content">
               <h3 className="portfolio--section--title">{project.title}</h3>
-              <p>{project.description}</p>
+              <p className="text-md">{project.description}</p>
             </div>
           </a>
         ))}
