@@ -10,7 +10,7 @@ const ContactMe = () => {
   // Om formuläret är skickat, navigera till /thank-you
   if (state.succeeded) {
     navigate("/thank-you"); // Omdirigera användaren till /thank-you-sidan
-    return null; // Förhindra att formuläret visas medan omdirigeringen sker
+    return null; // Förhindra att formuläret visas medan omdirigeringen sker.
   }
 
   return (
