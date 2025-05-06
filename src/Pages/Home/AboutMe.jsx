@@ -28,9 +28,8 @@ const AboutMe = () => {
           <p className="text-md">
             Jag är en målinriktad doer som trivs i team, men också tar stort
             eget ansvar. Jag drivs av utveckling, både på det personliga och
-            tekniska planet och just nu söker jag en praktikplats där jag får
-            växa som utvecklare, bidra med min bakgrund och fortsätta lära
-            tillsammans med andra engagerade människor.
+            tekniska planet där jag just nu söker en praktikplats där jag får
+            växa som utvecklare och bidra med mina kunskaper.
           </p>
           <a
             href="https://drive.google.com/file/d/18NIb5lOB8Xqs0khjda3A_mRYyscITeVk/view"
