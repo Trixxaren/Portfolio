@@ -200,6 +200,7 @@ a {
   padding: 0.9rem 1rem;
 }
 .navbar--items ul {
+  cursor: pointer;
   display: flex;
   list-style: none;
   gap: 1.25rem;
