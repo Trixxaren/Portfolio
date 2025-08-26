@@ -4,10 +4,9 @@ import {
   FaJsSquare,
   FaReact,
   FaGithub,
-} from "react-icons/fa"; // Font Awesome för ikoner
+} from "react-icons/fa";
 import { SiTailwindcss, SiNpm } from "react-icons/si";
 
-// SVG för Figma
 const FigmaIcon = () => (
   <svg
     width="48"
@@ -23,7 +22,6 @@ const FigmaIcon = () => (
   </svg>
 );
 
-// SVG för Miro
 const MiroIcon = () => (
   <svg
     width="48"
@@ -40,58 +38,47 @@ const MiroIcon = () => (
 
 const MySkills = () => {
   return (
-    <section className="skills-section">
-      <h1 className="skills--section--heading">Mina kunskaper</h1>
-
-      <div className="skills-container">
-        {/* HTML Icon */}
-        <div className="skill-item">
-          <FaHtml5 size={48} />
-          <p>HTML</p>
-        </div>
-
-        {/* CSS Icon */}
-        <div className="skill-item">
-          <FaCss3Alt size={48} />
-          <p>CSS</p>
-        </div>
-
-        {/* JavaScript Icon */}
-        <div className="skill-item">
-          <FaJsSquare size={48} />
-          <p>JavaScript</p>
-        </div>
-
-        {/* React Icon */}
-        <div className="skill-item">
-          <FaReact size={48} />
-          <p>React</p>
-        </div>
-
-        {/* Figma Icon - Using MdDesignServices as a design alternative */}
-        <div className="skill-item">
-          <FigmaIcon />
-          <p>Figma</p>
-        </div>
-
-        {/* GitHub Icon */}
-        <div className="skill-item">
-          <FaGithub size={48} />
-          <p>GitHub</p>
-        </div>
-
-        {/* Miro Icon */}
-        <div className="skill-item">
-          <MiroIcon />
-          <p>Miro</p>
-        </div>
-        <div className="skill-item">
-          <SiTailwindcss size={48} />
-          <p>Tailwind</p>
-        </div>
-        <div className="skill-item">
-          <SiNpm size={48} />
-          <p>NPM</p>
+    <section className="skills-section" id="skills">
+      <div className="container skills__inner">
+        {" "}
+        <h2 className="skills-heading">Mina kunskaper</h2>
+        <div className="skills-container">
+          <div className="skill-item">
+            <FaHtml5 size={48} />
+            <p>HTML</p>
+          </div>
+          <div className="skill-item">
+            <FaCss3Alt size={48} />
+            <p>CSS</p>
+          </div>
+          <div className="skill-item">
+            <FaJsSquare size={48} />
+            <p>JavaScript</p>
+          </div>
+          <div className="skill-item">
+            <FaReact size={48} />
+            <p>React</p>
+          </div>
+          <div className="skill-item">
+            <FigmaIcon />
+            <p>Figma</p>
+          </div>
+          <div className="skill-item">
+            <FaGithub size={48} />
+            <p>GitHub</p>
+          </div>
+          <div className="skill-item">
+            <MiroIcon />
+            <p>Miro</p>
+          </div>
+          <div className="skill-item">
+            <SiTailwindcss size={48} />
+            <p>Tailwind</p>
+          </div>
+          <div className="skill-item">
+            <SiNpm size={48} />
+            <p>NPM</p>
+          </div>
         </div>
       </div>
     </section>
