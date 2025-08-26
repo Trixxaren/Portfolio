@@ -376,6 +376,7 @@ h3 {
 }
 
 .skill-item {
+  margin: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -394,6 +395,8 @@ h3 {
 .about--section {
   display: grid;
   padding: 100px;
+  margin: 100px;
+  /* Senast ändring margin 100px  */
   align-items: center;
 
   grid-template-columns: repeat(2, 1fr);
@@ -401,7 +404,7 @@ h3 {
 
 .about--section--img > img {
   width: 70%;
-  height: 100%;
+  height: 90%;
   border-radius: 7px;
 }
 
@@ -411,6 +414,7 @@ h3 {
 
 /* För hela sektionen */
 .portfolio--section {
+  margin: 100px;
   display: flex;
   flex-direction: column;
   gap: 80px;

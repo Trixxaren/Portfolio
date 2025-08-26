@@ -2,7 +2,7 @@ const AboutMe = () => {
   return (
     <section id="AboutMe" className="about--section">
       <div className="about--section--img">
-        <img src="./kostym.png" alt="About Me"></img>
+        <img src="./utomhus.png" alt="About Me"></img>
       </div>
 
       <div className="hero--section--content--box about--section--box">
@@ -12,24 +12,25 @@ const AboutMe = () => {
             Jag är en lösningsorienterad och nyfiken person med ett stort
             intresse för teknik, människor och problemlösning. Just nu utbildar
             jag mig till front-end utvecklare på Jensen Yrkeshögskola, där jag
-            fördjupar mig i HTML, CSS, JavaScript, React, Tailwind, Figma och
-            Miro mm. Mitt mål är att skapa användarvänliga och smarta digitala
-            lösningar och jag ser fram emot att kombinera mina nya tekniska
-            färdigheter med mina tidigare erfarenhet inom marknadsföring,
-            kundrelationer och affärsutveckling.
+            fördjupar mig i HTML, CSS, JavaScript, React.js, TS, Tailwind, NPM,
+            Git & GitHub, Figma, Agila projektmetoder som t ex. Scrum & Kanban.
+            Mitt mål är att skapa användarvänliga och smarta digitala lösningar
+            och jag ser fram emot att kombinera mina nya tekniska färdigheter
+            med mina tidigare erfarenhet inom sälj och marknad. Vill även
+            fortsätta utvecklas inom fullstack och It-projektledare.
           </p>
           <p className="text-md">
-            Innan jag valde att byta bana jobbade jag som Key Account Manager på
-            Viaplay Group Radio, där jag ansvarade för strategiska samarbeten
-            med några av Sveriges största företag. Jag har en stark känsla för
-            att bygga relationer, skapa värde och driva projekt från idé till
-            resultat, något jag nu tar med mig in i techvärlden.
+            Tdigare var jag Key Account Manager på Viaplay Group Radio, där jag
+            ansvarade för strategiska samarbeten med några av Sveriges största
+            företag. Jag har en stark känsla för att bygga relationer, skapa
+            värde och driva projekt från idé till resultat, något jag nu tar med
+            mig in i framtiden som utvecklare.
           </p>
           <p className="text-md">
-            Jag är en målinriktad doer som trivs i team, men också tar stort
-            eget ansvar. Jag drivs av utveckling, både på det personliga och
-            tekniska planet där jag just nu söker en praktikplats där jag får
-            växa som utvecklare och bidra med mina kunskaper.
+            En målinriktad doer som trivs i team, med stort eget ansvar. Drivs
+            av utveckling, både på det personliga och tekniska planet. Där nästa
+            steg just nu är ut på praktik där jag får växa som utvecklare och
+            bidra med mina kunskaper.
           </p>
           <a
             href="https://drive.google.com/file/d/18NIb5lOB8Xqs0khjda3A_mRYyscITeVk/view"
